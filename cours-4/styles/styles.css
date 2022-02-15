@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 6vw;
+}
+
+main,
+section,
+form + form,
+form + div {
+    margin-top: 50px;
+}
+
+div + div,
+button {
+    margin-top: 10px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li + li {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
