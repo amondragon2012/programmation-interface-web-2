@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr_CA">
+<head>
+    <!-- meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Cours 8 | Storage d'un objet | WebStorage</title>
+	<meta name="description" content="Cours 8 du cours 582-31F-MA Programmation d'interface Web 2 : WebStorage">
+
+	<!-- styles -->
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+    
+	<!-- scripts -->
+    <script type="module" src="./main.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<h1>Cours 8 - Storage d'un objet</h1>
+	</header>
+
+	<main>
+		<form data-js-form>
+			<div>
+				<label for="prenom">Prénom :</label>
+				<input type="text" id="prenom" name="prenom">
+			</div>
+			<div>
+				<label for="nom">Nom :</label>
+				<input type="text" id="nom" name="nom">
+			</div>
+			<button data-js-submit>Soumettre</button>
+			<button data-js-show>Afficher sessionStorage</button>
+		</form>
+
+		<div data-js-infos></div>
+
+	</main>
+</body>
+</html>
