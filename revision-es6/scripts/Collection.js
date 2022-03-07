@@ -1,0 +1,1 @@
+// Comportements de la collection de plateformes
