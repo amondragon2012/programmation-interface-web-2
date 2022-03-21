@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 6vw;
+}
+
+main,
+form,
+form + div {
+    margin-top: 50px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.member {
+    margin-top: 50px;
+}
+
+.member__info {
+    align-items: center;
+    display: flex;
+}
+
+.member__info input {
+    margin-left: 25px;
+}
+
+.member__info button {
+    margin-left: 15px;
+}
