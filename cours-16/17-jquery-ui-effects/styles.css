@@ -1,0 +1,54 @@
+select,
+button { 
+    margin-top: 25px;
+    padding: .5em 1em; 
+    text-decoration: none; 
+}
+
+.demoHeaders {
+    margin-top: 2em;
+}
+
+
+/* SWITCH CLASS */
+
+.toggler { 
+    position: relative; 
+    width: 500px; 
+}
+
+#effect-switch { 
+    position: relative; 
+}
+
+.newClass { 
+    letter-spacing: 0; 
+    margin: 0; 
+    width: 240px;  
+}
+
+.anotherNewClass { 
+    font-size: 1.1em; 
+    height: 100px; 
+    letter-spacing: .2em; 
+    margin: 10px; 
+    padding: 30px; 
+    text-indent: 40px; 
+    width: 410px; 
+}
+
+
+/* TOGGLE */
+
+#effect-toggle {
+    height: 170px;
+    padding: 0.4em;
+    position: relative;
+    width: 240px;
+}
+
+#effect h3 {
+    margin: 0;
+    padding: 0.4em;
+    text-align: center;
+}
